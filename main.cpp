@@ -28,7 +28,7 @@ int main() {
     cin >> N >> M;
     vector<int> initial, original; 
     for (int i = 0; i < N; i++) {original.push_back(i+1);}
-    print_subset(original, initial, 5);
+    print_subset(original, initial, M);
     return 0;
 }
 
